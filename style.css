@@ -1,0 +1,129 @@
+.carta-hiei {
+    position: absolute;
+    max-height: 100vh;
+}
+
+.hiei-background {
+    height: 100vh;
+    position: relative;
+}
+
+.hiei-card {
+    height: 70vh;
+    position: relative;
+    right: 485px;
+    bottom: 150px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.hiei-pic {
+    position: relative;
+    bottom: 450px;
+    right: 850px;
+    height: 35vh;
+    border: 0.2px solid white;
+    border-radius: 12px;
+}
+
+.hiei-titulo-subtitulo {
+    width: 335px;
+    position: relative;
+    bottom: 47vh;
+    left: 105px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.hiei-titulo-subtitulo h2 {
+    margin-top: 14px;
+    color: #6FB0D1;
+}
+
+.hiei-xrp-preco {
+    position: absolute;
+    bottom: 250px;
+    height: 30px;
+    width: 120px;
+    left: 100px;
+}
+
+.hiei-xrp-preco img {
+    position: relative;
+    height: 20px;
+    bottom: 8px;
+    left: 3px;
+}
+
+.hiei-xrp-preco p {
+    position: relative;
+    height: 20px;
+    bottom: 32px;
+    left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6FB0D1;;
+}
+
+.hiei-linha-decorativa {
+    height: 2px;
+    width: 340px;
+    background-color: #6FB0D1;
+    position: relative;
+    bottom: 395px;
+    left: 100px;
+}
+
+.hiei-time-left {
+    position: absolute;
+    bottom: 250px;
+    height: 30px;
+    width: 120px;
+    left: 320px;
+    text-align: right;
+}
+
+.hiei-time-left img {
+    position: relative;
+    height: 20px;
+    right: 85px;
+    bottom: 27px;
+}
+
+.hiei-time-left p {
+    position: relative;
+    height: 20px;
+    bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6FB0D1;;
+}
+
+.hiei-fundo-do-card {
+    bottom: 250px;
+    height: 70px;
+    width: 340px;
+    left: 320px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.hiei-fundo-do-card img {
+    height: 40px;
+}
+
+.hiei-fundo-do-card p {
+    position: relative;
+    left: 55px;
+    bottom: 32px;
+    color: #6FB0D1;
+    font-size: 16px;
+}
+
+.hiei-fundo-do-card span {
+    color: white;
+    padding-left: 5px;
+    font-size: 18px;
+}
