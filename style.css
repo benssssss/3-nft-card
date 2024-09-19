@@ -1,13 +1,13 @@
 body {
-    margin: 0 auto;
     height: 100vh;
+    display: block;
 }
 
 .hiei-geral {
     background-image: url('src/hiei-asstes-prontos/hiei-background.png');
     height: 100vh;
     background-size: cover;
-    
+    display: block;
 }
 
 .hiei-card {
@@ -37,30 +37,22 @@ body {
     border-radius: 10px;
 }
 
-.hiei-foto img {
-    height: 280px;
-    border: 1px solid #6FB0D1;
-    border-radius: 10px;
-    position: relative;
-    margin-top: 20px;
-}
-
 .nome-descricao-hiei {
     text-align: left;
     margin: 15px 20px 12px 20px;
 }
 
-.nome-descricao-hiei h1 {
+.h1-do-hiei {
     font-size: 22px;
     font-family: Poppins;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
 }
 
-.nome-descricao-hiei h2 {
+.h2-do-hiei {
     font-family: Quicksand;
     font-size: 17px;
-    font-weight: 100;
+    font-weight: 500;
     color: #6FB0D1;
 }
 
@@ -116,7 +108,7 @@ body {
 }
 
 
-.linha-decorativa {
+.linha-decorativa-hiei {
     background-color: #6FB0D1;
     position: absolute;
     height: 1px;
@@ -156,17 +148,17 @@ body {
 }
 
 .creator-hiei span {
-    font-family: Quicksand;
+    font-family: Poppins;
     font-size: 14px;
     font-weight: 500;
     color: #ffffff;
 }
 
-h1:hover {
+.h1-do-hiei:hover {
     color: #6FB0D1;
 }
 
-span:hover {
+.span-do-hiei:hover {
     color: #6FB0D1;
     font-family: Poppins;
 }
@@ -175,3 +167,181 @@ span:hover {
     background-image: url('src/hiei-asstes-prontos/hiei-olho-hover.png');
     opacity: 50%;
 }
+
+/* ----------------- */
+
+.kurama-geral {
+    background-image: url(src/kurama-assets-prontos/kurama-background.png);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.kurama-card {
+    background-image: url('src/kurama-assets-prontos/kurama-card.png');
+    height: 550px;
+    width: 320px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: 1px solid #A78596;
+    border-radius: 15px;
+}
+
+.kurama-foto {
+    width: 280px;
+    height: 280px;
+    background-image: url('src/kurama-assets-prontos/kurama-pic.png');
+    background-size: cover;
+    transition: background-mage 0.5s ease-in-out;
+    margin: auto;
+    margin-top: 20px;
+    border: solid 1px #5D062F;
+    border-radius: 10px;
+}
+
+.nome-descricao-kurama {
+    text-align: left;
+    margin: 15px 20px 12px 20px;
+}
+
+.h1-do-kurama {
+    font-size: 22px;
+    font-family: Poppins;
+    color: #5D062F;
+    font-weight: 700;
+}
+
+.h2-do-kurama {
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 500;
+    color: #190412;
+}
+
+.dados-compra-kurama {
+    height: 40px;
+    width: 280px;
+    margin: 8px 20px;
+    padding: 10px;
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+}
+
+.preco-kurama img {
+    position: absolute;
+    height: 20px;
+    left: 20px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.preco-kurama p {
+    position: absolute;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 20px;
+    color: #5D062F;
+    left: 50;
+    padding-left: 15px;
+}
+
+.relogio-timer-kurama img {
+    position: absolute;
+    height: 20px;
+    left: 100px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 175px;
+}
+
+.relogio-timer-kurama p {
+    position: absolute;
+    line-height: 20px;
+    left: 200px;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5D062F;
+}
+
+.linha-decorativa-kurama {
+    background-color: #A78596;
+    position: absolute;
+    height: 1.5px;
+    width: 280px;
+    left: 0px;
+    top: 50px;
+}
+
+.creator-kurama {
+    position: absolute;
+    height: 40px;
+    width: 280px;
+    margin: 0px 20px 15px 20px;
+    padding: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.creator-kurama img {
+    position: absolute;
+    height: 30px;
+    left: 20px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.creator-kurama p {
+    position: absolute;
+    line-height: 20px;
+    left: 40px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 500;
+    color: #5D062F
+}
+
+.creator-kurama span {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E1B2B;
+}
+
+.h1-do-kurama:hover {
+    color: #1E1B2B;
+}
+
+.span-do-kurama:hover {
+    color: #5D062F;
+    font-family: Poppins;
+}
+
+.kurama-foto:hover {
+    background-image: url('src/kurama-assets-prontos/kurama-olho-hover.png');
+    opacity: 50%;
+}
+
+/* ----------------- */
+
+.botan-geral {
+    background-image: url('src/botan-assets-prontos/botan-background.png');
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
