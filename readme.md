@@ -1,6 +1,6 @@
 
-# NFT Card Shop Landing Page
-### NFT Card Shop Landing Page featuring unique characters
+# NFT Card Shop Section Page
+### NFT Card Shop Section Page featuring unique characters
 
 [<img src="./gif-all-page.gif ">](https://benssssss.github.io/nft-card/)
 [<img src="./hover-gif.gif ">](https://github.com/benssssss/nft-card.git)
