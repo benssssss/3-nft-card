@@ -11,7 +11,7 @@
 
 ## Fazer design e planejamento
 
-1 - [Referência de layout de carta](https://www.frontendmentor.io/solutions/nft-cards-store-page-K4EdHRGJBV)
+1 - [Referência de layout de carta](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 
 2 - Escolher tema e obter assets orginais (fotos)
 
