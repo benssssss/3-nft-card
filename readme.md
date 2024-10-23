@@ -1,6 +1,6 @@
 
-# NFT Card Shop Landing Page
-### NFT Card Shop Landing Page featuring unique characters
+# NFT Card Shop Section Page
+### NFT Card Shop Section Page featuring unique characters
 
 [<img src="./gif-all-page.gif ">](https://benssssss.github.io/nft-card/)
 [<img src="./hover-gif.gif ">](https://github.com/benssssss/nft-card.git)
@@ -11,7 +11,7 @@
 
 ## Fazer design e planejamento
 
-1 - [Referência de layout de carta](https://www.frontendmentor.io/solutions/nft-cards-store-page-K4EdHRGJBV)
+1 - [Referência de layout de carta](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 
 2 - Escolher tema e obter assets orginais (fotos)
 
