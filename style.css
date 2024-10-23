@@ -160,6 +160,7 @@ body {
     transition: background-mage 0.5s ease-in-out;
     background-size: cover;
     border: solid 1px #6FB0D1;
+    position: relative;
 }
 
 .hiei-name,
@@ -196,9 +197,30 @@ body {
     font-family: Poppins;
 }
 
-.hiei-picture:hover {
-    background-image: url('src/hiei/hiei-olho-hover.png');
-    opacity: 50%;
+.hiei-picture:before {
+    content: '';
+    background-color: #233A6E;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.5;
+    display: none;
+}
+
+.hiei-picture:after {
+    content: '';
+    background: url('src/icon-view.png') no-repeat center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 75px;
+    display: none;
+}
+
+.hiei-picture:hover::before,
+.hiei-picture:hover::after {
+    display: block;
 }
 
 /* ----------------- */
@@ -209,19 +231,23 @@ body {
 
 .kurama-card {
     background-image: url('src/kurama/kurama-card.png');
-    border: 1px solid #5D062F;
 }
 
+.kurama-card,
+.kurama-picture {
+    border: 1px solid #5D062F;
+}
 
 .kurama-picture {
     background-image: url(src/kurama/kurama-pic.png);
     transition: background-mage 0.5s ease-in-out;
     background-size: cover;
-    border: solid 1px #5D062F;
+    position: relative;
 }
 
 .kurama-name,
-.creator-kurama span {
+.creator-kurama span,
+.kurama-countdown p {
     color: #5D062F
 }
 
@@ -232,7 +258,6 @@ body {
 }
 
 .kurama-countdown p {
-    color: #5D062F;
     position: relative;
     left: 195px;
 }
@@ -255,23 +280,34 @@ body {
     font-family: Poppins;
 }
 
-.kurama-picture:hover {
-    background-image: url(src/kurama/kurama-olho-hover.png);
-    opacity: 50%;
+.kurama-picture:before {
+    content: '';
+    background-color: #5D062F;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.5;
+    display: none;
+}
+
+.kurama-picture:after {
+    content: '';
+    background: url('src/icon-view.png') no-repeat center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 75px;
+    display: none;
+}
+
+.kurama-picture:hover::before,
+.kurama-picture:hover::after {
+    display: block;
 }
 
 /* ----------------- */
 
-
-
-/* /* .botan-geral {
-    background-image: url('src/botan-assets-prontos/botan-background.png');
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    display: block;
-} */
 
 .botan-background {
     background-image: url('src/botan/botan-background.png');
@@ -287,16 +323,19 @@ body {
 }
 
 .botan-countdown p {
-    color: #233A6E;
-    position: relative;
     left: 195px;
+}
+
+.botan-picture,
+.botan-countdown p {
+    position: relative;
 }
 
 .botan-picture {
     background-image: url(src/botan/botan-pic.png);
     transition: background-mage 0.5s ease-in-out;
     background-size: cover;
-    border: solid 1px #233A6E
+    border: solid 1px #233A6E;
 }
 
 .botan-card {
@@ -304,28 +343,15 @@ body {
 }
 
 .botan-name,
-.creator-botan span {
-    color: #233A6E
-}
-
-.botan-card-description,
-
-.creator-botan {
-    color: #000000
-}
-
+.creator-botan span,
+.botan-countdown p,
 .buy-botan-price {
     color: #233A6E
 }
 
-.botan-countdown p {
-    color: #233A6E;
-    position: relative;
-    left: 195px;
-}
-
-.botan-countdown img {
-    left: 180px;
+.botan-card-description,
+.creator-botan {
+    color: #000000
 }
 
 .creator-botan {
@@ -343,7 +369,28 @@ body {
     font-family: Poppins;
 }
 
-.botan-picture:hover {
-    background-image: url(src/kurama/kurama-olho-hover.png);
-    opacity: 50%;
+.botan-picture:before {
+    content: '';
+    background-color: #d9a54c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.6;
+    display: none;
+}
+
+.botan-picture:after {
+    content: '';
+    background: url('src/icon-view.png') no-repeat center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 75px;
+    display: none;
+}
+
+.botan-picture:hover::before,
+.botan-picture:hover::after {
+    display: block;
 }
